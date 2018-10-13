@@ -9,16 +9,14 @@
             </ul>
         </div>
         <div class="col-md-8">
-            <div class="col-md-12">
                 {{#each photos as |photo key|}}
-                    <div class="col-md-3 mb-3">
-                        <img src="{{photo.thumbnailUrl}}" data-full-url="{{photo.url}}" onclick="setFullImageSource()" alt="{{photo.title}}">
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <img src="{{photo.thumbnailUrl}}" class="w-100" data-full-url="{{photo.url}}" onclick="setFullImageSource()" alt="{{photo.title}}">
                     </div>
                 {{/each}}
-            </div>
         </div>
         <div class="col-md-12 text-center">
-            <img src="" id="full-image">
+            <img src="" id="full-image" class="w-100">
         </div>
     </div>
 </div>

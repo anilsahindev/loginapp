@@ -1,7 +1,7 @@
 {
   "name": "loginapp",
   "version": "1.0.0",
-  "description": "Simple authentication system",
+  "description": "LoginApp",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
