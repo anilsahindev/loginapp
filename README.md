@@ -11,7 +11,7 @@ $ npm start
 ```
 ### Live Demo
 ```sh
-https://anilsahindev.herokuapp.com/users/login
+https://anilsahindev.herokuapp.com
 Username:anil
 Password:1234
 ```
