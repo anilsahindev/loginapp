@@ -10,7 +10,7 @@ $ npm install
 $ npm start
 ```
 
-Proje Tanımı,
+### Proje Tanımı
 Nodejs tabanlı bir proje mvc yapısı olarak express kullandım html şablonlaırnı çıkarmak için handlebars kullandım.front end tarafında sass yazdım bootstrap kullandım bu sırada yazdığım sass ve js dosyaları gulp ile birlikte compile olup min. oluyor.2 sayfamız var bunlardan birincisi login sayfası bu sayfada kullanıcı önüne çıkan form alanında kullanıcı adı şifresini girip sisteme giriş yapıyor, kullanıcının bilgileri mongodb'nin ücretsiz cloud aracı mlab üzerinde tutuluyor ve mongoose ile buradaki bilgiler çekiliyor.form kontrolleri için express-validator kullandım.bütün bu işlemlerden olumlu geçmiş ise kullanıcı 2. sayfamız olan albüm sayfasına yönlendiriliyor ve burada karşımıza menü çıkıyor burada menüde bulunan isimler ``` https://jsonplaceholder.typicode.com/albums```den çekiliyor burada şöyle bir işlem yaptım axios ile bir istek attım daha sonra gelen verileri bir değişkende tuttum ve şablonumda ekrana çıktısını verdim, daha sonra fotoğraflar bölümünde albüm isimlerindeki gibi axios yardımıyla bir istek daha attım ve fotoğraflarıda bir dizide tutup onlarıda şablonumda ekrana çıktısını verdim.
 ************************************************
 Projenin çalışması ve geliştirmeye açık olmasını kullandığım araçlar
