@@ -1,6 +1,5 @@
 var express = require('express');
 var path = require('path');
-var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var exphbs = require('express-handlebars');
 var expressValidator = require('express-validator');
@@ -15,6 +14,7 @@ axios.defaults.baseURL = 'https://jsonplaceholder.typicode.com';
 mongoose.connect('mongodb://anilsahin:anil1234@ds033760.mlab.com:33760/loginapp');
 var db = mongoose.connection;
 
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -26,7 +26,6 @@ app.set('view engine', 'handlebars');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser());
 
 app.use(express.static(path.join(__dirname, 'public')));
 //

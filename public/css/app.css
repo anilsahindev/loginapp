@@ -7,3 +7,8 @@
 img{
     cursor:pointer;
 }
+@media only screen and (max-width: 960px){
+.photos:nth-last-child(-n+4) {
+   display:none; 
+  }
+  }
